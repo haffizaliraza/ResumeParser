@@ -1,0 +1,11 @@
+[package]
+name = "resume_parser_rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+pdf-extract = "0.7.9"
+regex = "1"
+walkdir = "2.3.2"
+csv = "1"
+threadpool = "1.8"

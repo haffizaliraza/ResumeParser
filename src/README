@@ -1,0 +1,9 @@
+The Resume Parser is a Rust-based application designed to extract key information from PDF resumes, including skills, summaries, and work experience. Utilizing libraries for PDF text extraction and regex for parsing, this tool processes resumes from a specified directory, organizing the extracted data into a structured CSV format. The application enables recruiters and hiring managers to quickly identify candidate qualifications, streamlining the resume review process. By leveraging Rust’s performance and safety features, the project ensures efficient and reliable parsing of various resume formats.
+
+Key Features:
+PDF Text Extraction: Extracts text from PDF resumes using the pdf-extract library.
+Data Parsing: Utilizes regex to identify and extract relevant sections such as skills, summaries, and work experience.
+CSV Output: Compiles extracted information into a user-friendly CSV format for easy analysis and comparison.
+Sequential Processing: Processes resumes sequentially, ensuring reliable performance without the complexity of multi-threading.
+Robust Error Handling: Handles missing or malformed data gracefully, providing informative output for each processed resume.
+This title and description effectively communicate the purpose and functionality of your project, making it appealing to potential users or contributors.
